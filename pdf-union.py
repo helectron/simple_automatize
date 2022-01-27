@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 from PyPDF2 import PdfFileMerger
 
-pdfs = ["PdfFileWriter.pdf", "RectangleObject.pdf"]
-nombre_archivo_salida = "secop_pantallazos.pdf"
+pdfs = ["PdfFile1.pdf", "PdfFile2.pdf"]
+nombre_archivo_salida = "FinalPdf.pdf"
 fusionador = PdfFileMerger()
 
 for pdf in pdfs:
